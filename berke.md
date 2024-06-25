@@ -166,30 +166,30 @@ Konik makaralı rulman seçimi durumunda emniyet derecesi ve rulman ömrünün h
 - Eksenel yük: \( F_{ea} = 3500 \) N
 - Konik makaralı rulman için tipik değerler: \( X = 0.4 \), \( Y = 1.2 \) (rulman kataloglarından alınabilir)
 
-\[ P_{a} = X \cdot F_{ra} + Y \cdot F_{ea} \]
-\[ P_{a} = 0.4 \cdot 3000 + 1.2 \cdot 3500 \]
-\[ P_{a} = 1200 + 4200 \]
-\[ P_{a} = 5400 \text{ N} \]
+$ P_{a} = X \cdot F_{ra} + Y \cdot F_{ea} $
+$ P_{a} = 0.4 \cdot 3000 + 1.2 \cdot 3500 $
+$ P_{a} = 1200 + 4200 $
+$ P_{a} = 5400 \text{ N} $
 
 ##### Dinamik Yük Kapasitesi (C):
 - Rulman kataloglarından örnek değer: \( C_a = 70000 \) N
 
 ##### Emniyet Derecesi (S):
-\[ S_{a} = \frac{C_{a}}{P_{a}} \]
-\[ S_{a} = \frac{70000}{5400} \]
-\[ S_{a} \approx 12.96 \]
+$ S_{a} = \frac{C_{a}}{P_{a}} $
+$ S_{a} = \frac{70000}{5400} $
+$ S_{a} \approx 12.96 $
 
 ##### Ömür Hesabı:
-\[ L_{10,a} = \left( \frac{C_{a}}{P_{a}} \right)^3 \cdot 10^6 \]
-\[ L_{10,a} = \left( \frac{70000}{5400} \right)^3 \cdot 10^6 \]
-\[ L_{10,a} \approx 5800 \cdot 10^6 \text{ devrim} \]
+$ L_{10,a} = \left( \frac{C_{a}}{P_{a}} \right)^3 \cdot 10^6 $
+$ L_{10,a} = \left( \frac{70000}{5400} \right)^3 \cdot 10^6 $
+$ L_{10,a} \approx 5800 \cdot 10^6 \text{ devrim} $
 
 ##### Saat Cinsinden Ömür:
 - Çalışma hızı \( n = 1800 \) RPM (örnek bir hız değeri)
 
-\[ L_{h,a} = \frac{L_{10,a}}{60 \cdot n} \]
-\[ L_{h,a} = \frac{5800 \cdot 10^6}{60 \cdot 1800} \]
-\[ L_{h,a} \approx 53611 \text{ saat} \]
+$ L_{h,a} = \frac{L_{10,a}}{60 \cdot n} $
+$ L_{h,a} = \frac{5800 \cdot 10^6}{60 \cdot 1800} $
+$ L_{h,a} \approx 53611 \text{ saat} $
 
 #### 2. (b) Yatağı İçin:
 
@@ -198,30 +198,30 @@ Konik makaralı rulman seçimi durumunda emniyet derecesi ve rulman ömrünün h
 - Eksenel yük: \( F_{eb} = 1200 \) N
 - Konik makaralı rulman için tipik değerler: \( X = 0.4 \), \( Y = 1.2 \) (rulman kataloglarından alınabilir)
 
-\[ P_{b} = X \cdot F_{rb} + Y \cdot F_{eb} \]
-\[ P_{b} = 0.4 \cdot 4000 + 1.2 \cdot 1200 \]
-\[ P_{b} = 1600 + 1440 \]
-\[ P_{b} = 3040 \text{ N} \]
+$ P_{b} = X \cdot F_{rb} + Y \cdot F_{eb} $
+$ P_{b} = 0.4 \cdot 4000 + 1.2 \cdot 1200 $
+$ P_{b} = 1600 + 1440 $
+$ P_{b} = 3040 \text{ N} $
 
 ##### Dinamik Yük Kapasitesi (C):
 - Rulman kataloglarından örnek değer: \( C_b = 60000 \) N
 
 ##### Emniyet Derecesi (S):
-\[ S_{b} = \frac{C_{b}}{P_{b}} \]
-\[ S_{b} = \frac{60000}{3040} \]
-\[ S_{b} \approx 19.74 \]
+$ S_{b} = \frac{C_{b}}{P_{b}} $
+$ S_{b} = \frac{60000}{3040} $
+$ S_{b} \approx 19.74 $
 
 ##### Ömür Hesabı:
-\[ L_{10,b} = \left( \frac{C_{b}}{P_{b}} \right)^3 \cdot 10^6 \]
-\[ L_{10,b} = \left( \frac{60000}{3040} \right)^3 \cdot 10^6 \]
-\[ L_{10,b} \approx 41200 \cdot 10^6 \text{ devrim} \]
+$ L_{10,b} = \left( \frac{C_{b}}{P_{b}} \right)^3 \cdot 10^6 $
+$ L_{10,b} = \left( \frac{60000}{3040} \right)^3 \cdot 10^6 $
+$ L_{10,b} \approx 41200 \cdot 10^6 \text{ devrim} $
 
 ##### Saat Cinsinden Ömür:
 - Çalışma hızı \( n = 1800 \) RPM (örnek bir hız değeri)
 
-\[ L_{h,b} = \frac{L_{10,b}}{60 \cdot n} \]
-\[ L_{h,b} = \frac{41200 \cdot 10^6}{60 \cdot 1800} \]
-\[ L_{h,b} \approx 381481 \text{ saat} \]
+$ L_{h,b} = \frac{L_{10,b}}{60 \cdot n} $
+$ L_{h,b} = \frac{41200 \cdot 10^6}{60 \cdot 1800} $
+$ L_{h,b} \approx 381481 \text{ saat} $
 
 ### Sonuçlar:
 
@@ -259,22 +259,22 @@ Milin ömrünü ve maksimum hızını belirlemek için, genellikle daha kısa ol
 ### Maksimum Hız Hesabı
 
 Ömür formülünü yeniden düzenleyerek maksimum hızı bulabiliriz:
-\[ L_{h} = \frac{L_{10}}{60 \cdot n} \]
-\[ n = \frac{L_{10}}{60 \cdot L_{h}} \]
+$ L_{h} = \frac{L_{10}}{60 \cdot n} $
+$ n = \frac{L_{10}}{60 \cdot L_{h}} $
 
 (a) yatağı için:
 - \( L_{10,a} \approx 5800 \times 10^6 \) devrim
 - \( L_{h,a} = 53611 \) saat
 
 Bu verileri formülde yerine koyarak:
-\[ n_{max} = \frac{5800 \times 10^6}{60 \cdot 53611} \]
-\[ n_{max} \approx \frac{5800 \times 10^6}{3216660} \]
-\[ n_{max} \approx 1802 \text{ dev/dak} \]
+$ n_{max} = \frac{5800 \times 10^6}{60 \cdot 53611} $
+$ n_{max} \approx \frac{5800 \times 10^6}{3216660} $
+$ n_{max} \approx 1802 \text{ dev/dak} $
 
 ### Sonuç
 
 Milin maksimum dönme hızı:
-\[ n_{max} \approx 1802 \text{ dev/dak} \]
+$ n_{max} \approx 1802 \text{ dev/dak} $
 
 Bu hız, verilen yükler ve rulman ömür hesaplamaları dikkate alındığında milin en fazla dönebileceği hızı temsil eder. Bu değeri geçmemek, rulmanların ömrünü ve güvenli çalışma koşullarını sağlamak için önemlidir.
 
@@ -505,7 +505,7 @@ Düz kayış kasnak mekanizmaları kullanarak, 1 numaralı milden 3 numaralı mi
 ### Kasnak Hız Oranı Formülü
 
 Kasnak sistemlerinde hız oranı, kasnak çaplarının ters oranı ile belirlenir:
-\[ \text{Hız Oranı} = \frac{D_{\text{tahrik}}}{D_{\text{tahrik edilen}}} \]
+$ \text{Hız Oranı} = \frac{D_{\text{tahrik}}}{D_{\text{tahrik edilen}}} $
 
 Bu formül kullanılarak, farklı kasnak kombinasyonları ile elde edilecek hızlar belirlenir.
 
@@ -526,16 +526,16 @@ Minimum deviri elde etmek için, tahrik edilen kasnakların çaplarının olabil
 
 #### Hesaplama:
 1. Aşama:
-\[ \text{Hız Oranı}_1 = \frac{R_1}{R_{\text{b}}} = \frac{100}{175} \approx 0.57 \]
+$ \text{Hız Oranı}_1 = \frac{R_1}{R_{\text{b}}} = \frac{100}{175} \approx 0.57 $
 Bu oran, 2 numaralı milin dönüş hızını verir.
 
 2. Aşama:
-\[ \text{Hız Oranı}_2 = \frac{R_{\text{k}}}{R_3} = \frac{135}{250} = 0.54 \]
+$ \text{Hız Oranı}_2 = \frac{R_{\text{k}}}{R_3} = \frac{135}{250} = 0.54 $
 Bu oran, 3 numaralı milin dönüş hızını verir.
 
 Toplam hız oranı:
-\[ \text{Toplam Hız Oranı} = \text{Hız Oranı}_1 \times \text{Hız Oranı}_2 \]
-\[ \text{Toplam Hız Oranı} = 0.57 \times 0.54 \approx 0.31 \]
+$ \text{Toplam Hız Oranı} = \text{Hız Oranı}_1 \times \text{Hız Oranı}_2 $
+$ \text{Toplam Hız Oranı} = 0.57 \times 0.54 \approx 0.31 $
 
 Bu oran, 1 numaralı milin dönüş hızının %31'i kadar bir hızı 3 numaralı mile iletir, yani minimum hız elde edilir.
 
@@ -549,16 +549,16 @@ Maksimum deviri elde etmek için, tahrik edilen kasnakların çaplarının olabi
 
 #### Hesaplama:
 1. Aşama:
-\[ \text{Hız Oranı}_1 = \frac{R_1}{R_{\text{k}}} = \frac{100}{135} \approx 0.74 \]
+$ \text{Hız Oranı}_1 = \frac{R_1}{R_{\text{k}}} = \frac{100}{135} \approx 0.74 $
 Bu oran, 2 numaralı milin dönüş hızını verir.
 
 2. Aşama:
-\[ \text{Hız Oranı}_2 = \frac{R_{\text{b}}}{R_3} = \frac{175}{250} = 0.70 \]
+$ \text{Hız Oranı}_2 = \frac{R_{\text{b}}}{R_3} = \frac{175}{250} = 0.70 $
 Bu oran, 3 numaralı milin dönüş hızını verir.
 
 Toplam hız oranı:
-\[ \text{Toplam Hız Oranı} = \text{Hız Oranı}_1 \times \text{Hız Oranı}_2 \]
-\[ \text{Toplam Hız Oranı} = 0.74 \times 0.70 \approx 0.52 \]
+$ \text{Toplam Hız Oranı} = \text{Hız Oranı}_1 \times \text{Hız Oranı}_2 $
+$ \text{Toplam Hız Oranı} = 0.74 \times 0.70 \approx 0.52 $
 
 Bu oran, 1 numaralı milin dönüş hızının %52'si kadar bir hızı 3 numaralı mile iletir, yani maksimum hız elde edilir.
 
@@ -575,7 +575,7 @@ Bu oran, 1 numaralı milin dönüş hızının %52'si kadar bir hızı 3 numaral
 
 Kayış uzunluğunu hesaplamak için, kasnak merkezleri arasındaki mesafeleri ve kasnak çaplarını kullanacağız. Bu işlem için kullanılan formül aşağıda verilmiştir:
 
-\[ L = 2C + \frac{\pi (D_1 + D_2)}{2} + \frac{(D_1 - D_2)^2}{4C} \]
+$ L = 2C + \frac{\pi (D_1 + D_2)}{2} + \frac{(D_1 - D_2)^2}{4C} $
 
 Burada:
 - \( L \): Kayış uzunluğu
@@ -598,18 +598,18 @@ Minimum devir için:
 - 3 numaralı milin kasnağı (D3) = 500 mm
 
 1 numaralı mil ile 2 numaralı mil arasında kayış uzunluğu (L1):
-\[ L_1 = 2C_1 + \frac{\pi (D1_1 + D2_2)}{2} + \frac{(D2_2 - D1_1)^2}{4C_1} \]
-\[ L_1 = 2(500) + \frac{\pi (200 + 350)}{2} + \frac{(350 - 200)^2}{4(500)} \]
-\[ L_1 = 1000 + \frac{\pi \cdot 550}{2} + \frac{150^2}{2000} \]
-\[ L_1 = 1000 + 863.937 + 11.25 \]
-\[ L_1 = 1875.19 \text{ mm} \]
+$ L_1 = 2C_1 + \frac{\pi (D1_1 + D2_2)}{2} + \frac{(D2_2 - D1_1)^2}{4C_1} $
+$ L_1 = 2(500) + \frac{\pi (200 + 350)}{2} + \frac{(350 - 200)^2}{4(500)} $
+$ L_1 = 1000 + \frac{\pi \cdot 550}{2} + \frac{150^2}{2000} $
+$ L_1 = 1000 + 863.937 + 11.25 $
+$ L_1 = 1875.19 \text{ mm} $
 
 2 numaralı mil ile 3 numaralı mil arasında kayış uzunluğu (L2):
-\[ L_2 = 2C_2 + \frac{\pi (D1_2 + D3)}{2} + \frac{(D3 - D1_2)^2}{4C_2} \]
-\[ L_2 = 2(750) + \frac{\pi (270 + 500)}{2} + \frac{(500 - 270)^2}{4(750)} \]
-\[ L_2 = 1500 + \frac{\pi \cdot 770}{2} + \frac{230^2}{3000} \]
-\[ L_2 = 1500 + 1208.704 + 17.633 \]
-\[ L_2 = 2726.34 \text{ mm} \]
+$ L_2 = 2C_2 + \frac{\pi (D1_2 + D3)}{2} + \frac{(D3 - D1_2)^2}{4C_2} $
+$ L_2 = 2(750) + \frac{\pi (270 + 500)}{2} + \frac{(500 - 270)^2}{4(750)} $
+$ L_2 = 1500 + \frac{\pi \cdot 770}{2} + \frac{230^2}{3000} $
+$ L_2 = 1500 + 1208.704 + 17.633 $
+$ L_2 = 2726.34 \text{ mm} $
 
 ### Maksimum Devir İçin Kayış Uzunluğu
 Maksimum devir için:
@@ -619,18 +619,18 @@ Maksimum devir için:
 - 3 numaralı milin kasnağı (D3) = 500 mm
 
 1 numaralı mil ile 2 numaralı mil arasında kayış uzunluğu (L1):
-\[ L_1 = 2C_1 + \frac{\pi (D1_1 + D1_2)}{2} + \frac{(D1_2 - D1_1)^2}{4C_1} \]
-\[ L_1 = 2(500) + \frac{\pi (200 + 270)}{2} + \frac{(270 - 200)^2}{4(500)} \]
-\[ L_1 = 1000 + \frac{\pi \cdot 470}{2} + \frac{70^2}{2000} \]
-\[ L_1 = 1000 + 738.274 + 2.45 \]
-\[ L_1 = 1740.72 \text{ mm} \]
+$ L_1 = 2C_1 + \frac{\pi (D1_1 + D1_2)}{2} + \frac{(D1_2 - D1_1)^2}{4C_1} $
+$ L_1 = 2(500) + \frac{\pi (200 + 270)}{2} + \frac{(270 - 200)^2}{4(500)} $
+$ L_1 = 1000 + \frac{\pi \cdot 470}{2} + \frac{70^2}{2000} $
+$ L_1 = 1000 + 738.274 + 2.45 $
+$ L_1 = 1740.72 \text{ mm} $
 
 2 numaralı mil ile 3 numaralı mil arasında kayış uzunluğu (L2):
-\[ L_2 = 2C_2 + \frac{\pi (D2_2 + D3)}{2} + \frac{(D3 - D2_2)^2}{4C_2} \]
-\[ L_2 = 2(750) + \frac{\pi (350 + 500)}{2} + \frac{(500 - 350)^2}{4(750)} \]
-\[ L_2 = 1500 + \frac{\pi \cdot 850}{2} + \frac{150^2}{3000} \]
-\[ L_2 = 1500 + 1334.508 + 7.5 \]
-\[ L_2 = 2842.01 \text{ mm} \]
+$ L_2 = 2C_2 + \frac{\pi (D2_2 + D3)}{2} + \frac{(D3 - D2_2)^2}{4C_2} $
+$ L_2 = 2(750) + \frac{\pi (350 + 500)}{2} + \frac{(500 - 350)^2}{4(750)} $
+$ L_2 = 1500 + \frac{\pi \cdot 850}{2} + \frac{150^2}{3000} $
+$ L_2 = 1500 + 1334.508 + 7.5 $
+$ L_2 = 2842.01 \text{ mm} $
 
 ### Sonuç
 
